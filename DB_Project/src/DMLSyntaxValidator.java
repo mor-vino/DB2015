@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by user on 7/26/15.kk
+ * Created by user on 7/26/15.mor
  */
 public class DMLSyntaxValidator implements SyntaxValidator {
     private String query;
