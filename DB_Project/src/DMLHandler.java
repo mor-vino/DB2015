@@ -12,6 +12,8 @@ public class DMLHandler implements Handler {
 	private Connection connection;
 	
 	public DMLHandler(Connection c) {
+		int f;
+
 		this.connection = c;
 	
 	}

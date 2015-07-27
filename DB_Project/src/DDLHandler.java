@@ -10,6 +10,8 @@ public class DDLHandler implements Handler {
 	
 	public DDLHandler(Connection c) {
 		this.connection = c;
+		int f;
+
 	
 	}
 

@@ -7,6 +7,7 @@ public class DataBaseProject {
 
 	public static void main(String[] args) {
 		DataBaseProject dbp = new DataBaseProject();
+		int f;
 		Connection connection = dbp.makeConnection();
 		MainGui mainGui = new MainGui(connection);
 		mainGui.runGUI();
