@@ -10,7 +10,6 @@ public class DataBaseProject {
 		Connection connection = dbp.makeConnection();
 		MainGui mainGui = new MainGui(connection);
 		mainGui.runGUI();
-		
 	}
 	
 	public Connection makeConnection() {
